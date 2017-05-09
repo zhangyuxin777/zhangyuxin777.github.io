@@ -6,11 +6,12 @@ import router from './router'
 import vueResource from 'vue-resource'
 import Vuex from 'vuex'
 import store from './store'
+import Common from './js/rock'
 
 Vue.config.productionTip = false
 Vue.use(vueResource)
 Vue.use(Vuex)
-
+Common.autoSize()
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

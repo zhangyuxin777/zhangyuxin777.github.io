@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/dist/src/js/mui.all.js" />
+        <item url="file://$PROJECT_DIR$/dist/build/webpack.base.conf.js" />
+        <item url="file://$PROJECT_DIR$/dist/src/main.js" />
+        <item url="file://$PROJECT_DIR$/dist/src/js/rock.js" />
+        <item url="file://$PROJECT_DIR$/dist/src/js/storage.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/dist/src/js/mui.all.js" />
+      <root url="file://$PROJECT_DIR$/dist/build/webpack.base.conf.js" />
+      <root url="file://$PROJECT_DIR$/dist/src/main.js" />
+      <root url="file://$PROJECT_DIR$/dist/src/js/rock.js" />
+      <root url="file://$PROJECT_DIR$/dist/src/js/storage.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>
