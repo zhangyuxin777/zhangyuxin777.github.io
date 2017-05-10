@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAII,yBAAM;EACJ,MAAM,EAAE,MAAM;EACd,gCAAO;IACL,KAAK,ECgBI,OAAO;IDfhB,SAAS,EAAE,OAAO",
+"sources": ["articleList.scss","../../css/wl-common.scss"],
+"names": [],
+"file": "articleList.css"
+}

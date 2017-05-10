@@ -12,11 +12,12 @@ Vue.config.productionTip = false
 Vue.use(vueResource)
 Vue.use(Vuex)
 Common.autoSize()
+Common.avInit()
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
   store,
   template: '<App/>',
-  components: { App }
+  components: {App}
 })

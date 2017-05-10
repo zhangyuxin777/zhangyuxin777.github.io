@@ -1,6 +1,7 @@
 /**
  * Created by pc on 2016/9/9.
  */
+let AV = require('leancloud-storage')
 export default {
   wlScreen () {
     return {
@@ -117,8 +118,11 @@ export default {
     }
     return format
   },
-  showApi: {
-    appSecret: '32a7b9412fff4da0a5c688b77151b736',
-    appId: '27598'
+  AV: AV,
+  avInit () {
+    AV.init({
+      appId: 'QCmUw8KlHX5TD1t0dxr6mDPP-gzGzoHsz',
+      appKey: 'W7XIEP27UXFYefUU7VzPHnki'
+    })
   }
 }
