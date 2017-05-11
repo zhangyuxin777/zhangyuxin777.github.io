@@ -2,6 +2,10 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import main from '../views/mainView'
 import articleList from '../views/articleList'
+import article from '../views/article'
+import experienceList from '../views/experienceList'
+import experience from '../views/experience'
+import thinkList from '../views/thinkList'
 Vue.use(Router)
 
 export default new Router({
@@ -15,6 +19,26 @@ export default new Router({
       path: '/articleList',
       name: 'articleList',
       component: articleList
+    },
+    {
+      path: '/article',
+      name: 'article',
+      component: article
+    },
+    {
+      path: '/experienceList',
+      name: 'experienceList',
+      component: experienceList
+    },
+    {
+      path: '/experience',
+      name: 'experience',
+      component: experience
+    },
+    {
+      path: '/thinkList',
+      name: 'thinkList',
+      component: thinkList
     }
   ]
 })

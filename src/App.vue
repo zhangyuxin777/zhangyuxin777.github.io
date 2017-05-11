@@ -1,5 +1,7 @@
 <style scoped>
   @import "css/app.css";
+  @import "css/animate.css";
+  @import "css/magic.css";
 </style>
 <template>
   <div id="app">

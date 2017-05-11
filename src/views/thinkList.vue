@@ -5,7 +5,7 @@
   <transition name="custom-classes-transition" enter-active-class="animated fadeInLeft"
               leave-active-class="animated fadeOut" mode="out-in">
     <div class="list-box">
-      <ul class="list">
+      <ul class="think-list">
         <li class="item" v-for="(item,index) in list" @click="toArticle(item.attributes.id)">
           <div class="con">
             <div class="title">{{item.attributes.title}}</div>
@@ -28,23 +28,17 @@
     },
     computed: {
       ...mapState({
-        list: state => state.article.list
+        list: state => state.think.list
       })
     },
     methods: {
-      toArticle (id) {
-        this.$router.push({
-          name: 'article',
-          query: {id: id}
-        })
-      }
     },
     mounted () {
       let _this = this
-      let query = new Common.AV.Query('ArticleList')
+      let query = new Common.AV.Query('ThinkList')
       query.limit(1000)
       query.find().then(function (results) {
-        _this.$store.dispatch('addArticleList', results)
+        _this.$store.dispatch('addThinkList', results)
       }, function (error) {
         console.log(error)
       })

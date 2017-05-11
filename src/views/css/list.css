@@ -1,0 +1,70 @@
+.list-box .list {
+  position: absolute; }
+  .list-box .list .item {
+    background-color: white; }
+    .list-box .list .item .con {
+      padding: 0.2rem; }
+      .list-box .list .item .con .title {
+        color: #259;
+        font-size: 0.28rem;
+        max-height: 0.8rem;
+        overflow: hidden;
+        font-weight: 700;
+        text-overflow: ellipsis; }
+      .list-box .list .item .con .info {
+        font-size: 0.22rem;
+        color: #aaa;
+        padding: 0.1rem 0; }
+      .list-box .list .item .con .detail {
+        color: #222;
+        max-height: 1rem;
+        overflow: hidden;
+        text-overflow: ellipsis; }
+  .list-box .list .item:after {
+    content: '';
+    height: 1px;
+    width: 100%;
+    background-color: #d7d7d7;
+    display: block;
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%; }
+.list-box .think-list {
+  position: absolute; }
+  .list-box .think-list .item {
+    background-color: white; }
+    .list-box .think-list .item .con {
+      padding: 0.2rem; }
+      .list-box .think-list .item .con .title {
+        color: #259;
+        font-size: 0.28rem;
+        max-height: 0.8rem;
+        overflow: hidden;
+        font-weight: 700;
+        text-overflow: ellipsis; }
+      .list-box .think-list .item .con .info {
+        font-size: 0.22rem;
+        color: #aaa;
+        padding: 0.1rem 0; }
+      .list-box .think-list .item .con .detail {
+        color: #222;
+        max-height: 1rem;
+        overflow: hidden;
+        text-overflow: ellipsis; }
+  .list-box .think-list .item:after {
+    content: '';
+    height: 1px;
+    width: 100%;
+    background-color: #d7d7d7;
+    display: block;
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%; }
+@media only screen and (-webkit-min-device-pixel-ratio: 3) {
+  .list-box .item:after {
+    -webkit-transform: scaleY(0.33);
+    transform: scaleY(0.33); } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+  .list-box .item:after {
+    -webkit-transform: scaleY(0.5);
+    transform: scaleY(0.5); } }
+
+/*# sourceMappingURL=list.css.map */

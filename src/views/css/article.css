@@ -1,0 +1,20 @@
+.article {
+  width: 6.4rem;
+  padding: 0.2rem;
+  background-color: white;
+  position: absolute; }
+  .article .title {
+    color: #0e0e0e;
+    font-size: 0.28rem;
+    max-height: 0.8rem;
+    overflow: hidden;
+    font-weight: 700;
+    text-overflow: ellipsis; }
+  .article .info {
+    font-size: 0.22rem;
+    color: #aaa;
+    padding: 0.1rem 0; }
+  .article .content {
+    color: #222; }
+
+/*# sourceMappingURL=article.css.map */

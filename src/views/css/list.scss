@@ -1,0 +1,78 @@
+@import "../../css/wl-common";
+
+.list-box {
+  .list {
+    position: absolute;
+    .item {
+      background-color: white;
+      .con {
+        padding: 0.2rem;
+        .title {
+          color: #259;
+          font-size: 0.28rem;
+          max-height: 0.8rem;
+          overflow: hidden;
+          font-weight: 700;
+          text-overflow: ellipsis;
+        }
+        .info {
+          font-size: 0.22rem;
+          color: #aaa;
+          padding: 0.1rem 0;
+        }
+        .detail {
+          color: #222;
+          max-height: 1rem;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+      }
+    }
+    .item:after {
+      @include split-line();
+    }
+  }
+
+  .think-list {
+    position: absolute;
+    .item {
+      background-color: white;
+      .con {
+        padding: 0.2rem;
+        .title {
+          color: #259;
+          font-size: 0.28rem;
+          max-height: 0.8rem;
+          overflow: hidden;
+          font-weight: 700;
+          text-overflow: ellipsis;
+        }
+        .info {
+          font-size: 0.22rem;
+          color: #aaa;
+          padding: 0.1rem 0;
+        }
+        .detail {
+          color: #222;
+          max-height: 1rem;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+      }
+    }
+    .item:after {
+      @include split-line();
+    }
+  }
+  @media only screen and (-webkit-min-device-pixel-ratio: 3) {
+    .item:after {
+      @include split-line-rate($line-R3);
+    }
+  }
+
+  @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+    .item:after {
+      @include split-line-rate($line-R2);
+    }
+  }
+}

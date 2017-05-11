@@ -1,41 +1,43 @@
-.main .banner {
-  width: 6.4rem;
-  height: 3rem;
-  background-color: #2c3e50; }
-.main .list {
-  width: 6.4rem; }
-  .main .list .item {
-    height: 1.5rem;
-    position: relative; }
-    .main .list .item .title {
-      display: inline-block;
-      border-top: 1.5rem solid #dd524d;
-      border-right: 2rem solid transparent;
-      height: 0;
-      width: 3rem; }
-      .main .list .item .title .text {
+.main {
+  position: absolute; }
+  .main .banner {
+    width: 6.4rem;
+    height: 3rem;
+    background-color: #2c3e50; }
+  .main .list {
+    width: 6.4rem; }
+    .main .list .item {
+      height: 1.5rem;
+      position: relative; }
+      .main .list .item .title {
+        display: inline-block;
+        border-top: 1.5rem solid #dd524d;
+        border-right: 2rem solid transparent;
+        height: 0;
+        width: 3rem; }
+        .main .list .item .title .text {
+          position: absolute;
+          top: 0.2rem;
+          left: 0.4rem;
+          font-size: 0.42rem;
+          color: white;
+          font-weight: bolder;
+          display: inline-block; }
+      .main .list .item .cont {
         position: absolute;
-        top: 0.2rem;
-        left: 0.4rem;
-        font-size: 0.42rem;
-        color: white;
-        font-weight: bolder;
-        display: inline-block; }
-    .main .list .item .cont {
-      position: absolute;
-      right: 0;
-      top: 0;
-      border-bottom: 1.5rem solid cadetblue;
-      border-left: 2rem solid transparent;
-      height: 0;
-      width: 5.3rem; }
-      .main .list .item .cont .text {
-        position: absolute;
-        top: 0.2rem;
-        left: 0.4rem;
-        font-size: 0.42rem;
-        color: white;
-        font-weight: bolder;
-        display: inline-block; }
+        right: 0;
+        top: 0;
+        border-bottom: 1.5rem solid cadetblue;
+        border-left: 2rem solid transparent;
+        height: 0;
+        width: 5.3rem; }
+        .main .list .item .cont .text {
+          position: absolute;
+          top: 0.2rem;
+          left: 0.4rem;
+          font-size: 0.42rem;
+          color: white;
+          font-weight: bolder;
+          display: inline-block; }
 
 /*# sourceMappingURL=mainView.css.map */

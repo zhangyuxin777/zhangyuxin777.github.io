@@ -1,7 +1,7 @@
 ﻿@import "wl-common";
 
 html {
-  background: $bgColor;
+  background: white;
 }
 
 body {
@@ -9,7 +9,6 @@ body {
   -webkit-tap-highlight-color: transparent;
   width: $pageWidth;
   margin: 0 auto;
-  background: $bgColor;
   font-size: 0.24rem;
 }
 
@@ -186,7 +185,6 @@ ol, ul:not(.mui-pciker-list) {
   list-style: none;
   padding: 0;
   margin: 0;
-  background-color: #ffffff;
 }
 
 .mui-content {

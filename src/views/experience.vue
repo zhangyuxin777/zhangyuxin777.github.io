@@ -36,7 +36,7 @@
     methods: {},
     mounted () {
       let _this = this
-      let query = new Common.AV.Query('ArticleList')
+      let query = new Common.AV.Query('ExperienceList')
       query.equalTo('id', this.$route.query.id)
       query.find().then(function (results) {
         _this.info.title = results[0].attributes.title
@@ -45,7 +45,7 @@
       }, function (error) {
         console.log(error)
       })
-      let query2 = new Common.AV.Query('ArticleContent')
+      let query2 = new Common.AV.Query('ExperienceContent')
       query2.equalTo('id', this.$route.query.id)
       query2.find().then(function (results) {
         _this.info.content = marked(results[0].attributes.content)

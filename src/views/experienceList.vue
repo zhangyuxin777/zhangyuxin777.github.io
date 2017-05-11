@@ -28,7 +28,7 @@
     },
     computed: {
       ...mapState({
-        list: state => state.article.list
+        list: state => state.experience.list
       })
     },
     methods: {
@@ -41,10 +41,10 @@
     },
     mounted () {
       let _this = this
-      let query = new Common.AV.Query('ArticleList')
+      let query = new Common.AV.Query('ExperienceList')
       query.limit(1000)
       query.find().then(function (results) {
-        _this.$store.dispatch('addArticleList', results)
+        _this.$store.dispatch('addExperineceList', results)
       }, function (error) {
         console.log(error)
       })

@@ -1,0 +1,24 @@
+@import "../../css/wl-common";
+
+.article {
+  width: $pageWidth;
+  padding: 0.2rem;
+  background-color: white;
+  position: absolute;
+  .title {
+    color: $textRightColor;
+    font-size: 0.28rem;
+    max-height: 0.8rem;
+    overflow: hidden;
+    font-weight: 700;
+    text-overflow: ellipsis;
+  }
+  .info {
+    font-size: 0.22rem;
+    color: #aaa;
+    padding: 0.1rem 0;
+  }
+  .content {
+    color: #222;
+  }
+}
