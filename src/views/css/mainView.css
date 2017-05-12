@@ -11,7 +11,6 @@
       position: relative; }
       .main .list .item .title {
         display: inline-block;
-        border-top: 1.5rem solid #dd524d;
         border-right: 2rem solid transparent;
         height: 0;
         width: 3rem; }
@@ -27,7 +26,6 @@
         position: absolute;
         right: 0;
         top: 0;
-        border-bottom: 1.5rem solid cadetblue;
         border-left: 2rem solid transparent;
         height: 0;
         width: 5.3rem; }
@@ -39,5 +37,61 @@
           color: white;
           font-weight: bolder;
           display: inline-block; }
+      .main .list .item .t1 {
+        border-top: 1.5rem solid #fa7c7d; }
+      .main .list .item .c1 {
+        border-bottom: 1.5rem solid rgba(250, 124, 125, 0.7); }
+      .main .list .item .t2 {
+        border-top: 1.5rem solid #fdc753; }
+      .main .list .item .c2 {
+        border-bottom: 1.5rem solid rgba(253, 199, 83, 0.7); }
+      .main .list .item .t3 {
+        border-top: 1.5rem solid #5fb0f2; }
+      .main .list .item .c3 {
+        border-bottom: 1.5rem solid rgba(95, 176, 242, 0.7); }
+      .main .list .item .t4 {
+        border-top: 1.5rem solid #cc99cc; }
+      .main .list .item .c4 {
+        border-bottom: 1.5rem solid rgba(204, 153, 204, 0.7); }
+  .main .top {
+    width: 5rem;
+    height: 10rem;
+    background-color: #42b983;
+    transform: rotate(50deg);
+    -webkit-transform: rotate(50deg);
+    position: absolute;
+    top: -4rem;
+    left: -0.6rem;
+    z-index: 4; }
+  .main .right {
+    width: 6rem;
+    height: 10rem;
+    background-color: #dd524d;
+    transform: rotate(-50deg);
+    -webkit-transform: rotate(-50deg);
+    position: absolute;
+    top: -2rem;
+    left: 2.6rem;
+    z-index: 3; }
+  .main .left {
+    width: 5rem;
+    height: 10rem;
+    background-color: lightblue;
+    transform: rotate(50deg);
+    -webkit-transform: rotate(50deg);
+    position: absolute;
+    top: 1rem;
+    left: -0.6rem;
+    z-index: 2; }
+  .main .bottom {
+    width: 5rem;
+    height: 10rem;
+    background-color: #f0ad4e;
+    transform: rotate(50deg);
+    -webkit-transform: rotate(50deg);
+    position: absolute;
+    top: 5.5rem;
+    left: 1rem;
+    z-index: 1; }
 
 /*# sourceMappingURL=mainView.css.map */

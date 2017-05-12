@@ -6,12 +6,11 @@
   background-color: white;
   position: absolute;
   .title {
-    color: $textRightColor;
-    font-size: 0.28rem;
+    color: #259;
+    font-size: 0.3rem;
     max-height: 0.8rem;
     overflow: hidden;
     font-weight: 700;
-    text-overflow: ellipsis;
   }
   .info {
     font-size: 0.22rem;

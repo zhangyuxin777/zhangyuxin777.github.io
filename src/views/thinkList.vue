@@ -9,8 +9,8 @@
         <li class="item" v-for="(item,index) in list" @click="toArticle(item.attributes.id)">
           <div class="con">
             <div class="title">{{item.attributes.title}}</div>
-            <div class="info"><span class="author">{{item.attributes.author}}</span> / <span class="date">{{item.attributes.date}}</span>
-            </div>
+            <!--<div class="info"><span class="author">{{item.attributes.author}}</span> / <span class="date">{{item.attributes.date}}</span>-->
+            <!--</div>-->
             <div class="detail">{{item.attributes.detail}}</div>
           </div>
         </li>

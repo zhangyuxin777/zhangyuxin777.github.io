@@ -1,8 +1,11 @@
 @import "../../css/wl-common";
 
 .list-box {
+  position: relative;
+  width: $pageWidth;
   .list {
     position: absolute;
+    width: $pageWidth;
     .item {
       background-color: white;
       .con {
@@ -35,6 +38,7 @@
 
   .think-list {
     position: absolute;
+    width: $pageWidth;
     .item {
       background-color: white;
       .con {
@@ -50,10 +54,11 @@
         .info {
           font-size: 0.22rem;
           color: #aaa;
-          padding: 0.1rem 0;
+          padding: 0.1rem 0 0 0;
         }
         .detail {
           color: #222;
+          padding: 0.1rem 0 0 0;
           max-height: 1rem;
           overflow: hidden;
           text-overflow: ellipsis;

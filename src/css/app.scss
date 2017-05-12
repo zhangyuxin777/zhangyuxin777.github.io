@@ -21,6 +21,10 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none !important;
   margin: 0;
 }
+pre{
+  background: #002b36;
+  color: lightblue;
+}
 
 ::-webkit-inner-spin-button {
   visibility: hidden;

@@ -4,12 +4,11 @@
   background-color: white;
   position: absolute; }
   .article .title {
-    color: #0e0e0e;
-    font-size: 0.28rem;
+    color: #259;
+    font-size: 0.3rem;
     max-height: 0.8rem;
     overflow: hidden;
-    font-weight: 700;
-    text-overflow: ellipsis; }
+    font-weight: 700; }
   .article .info {
     font-size: 0.22rem;
     color: #aaa;
@@ -17,4 +16,4 @@
   .article .content {
     color: #222; }
 
-/*# sourceMappingURL=article.css.map */
+/*# sourceMappingURL=content.css.map */

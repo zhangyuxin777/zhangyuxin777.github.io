@@ -15,7 +15,6 @@
       position: relative;
       .title {
         display: inline-block;
-        border-top: $hei solid #dd524d;
         border-right: 2rem solid transparent;
         height: 0;
         width: 3rem;
@@ -32,8 +31,7 @@
       .cont {
         position: absolute;
         right: 0;
-        top:0;
-        border-bottom: $hei solid cadetblue;
+        top: 0;
         border-left: 2rem solid transparent;
         height: 0;
         width: 5.3rem;
@@ -47,6 +45,75 @@
           display: inline-block;
         }
       }
+
+      .t1 {
+        border-top: $hei solid #fa7c7d;
+      }
+      .c1 {
+        border-bottom: $hei solid rgba(250, 124, 125, 0.7);
+      }
+      .t2 {
+        border-top: $hei solid #fdc753;
+      }
+      .c2 {
+        border-bottom: $hei solid rgba(253, 199, 83, 0.7);
+      }
+      .t3 {
+        border-top: $hei solid #5fb0f2;
+      }
+      .c3 {
+        border-bottom: $hei solid rgba(95, 176, 242, 0.7);
+      }
+      .t4 {
+        border-top: $hei solid #cc99cc;
+      }
+      .c4 {
+        border-bottom: $hei solid rgba(204, 153, 204, 0.7);
+      }
     }
+  }
+  .top {
+    width: 5rem;
+    height: 10rem;
+    background-color: #42b983;
+    transform: rotate(50deg);
+    -webkit-transform: rotate(50deg);
+    position: absolute;
+    top: -4rem;
+    left: -0.6rem;
+    z-index: 4;
+  }
+  .right {
+    width: 6rem;
+    height: 10rem;
+    background-color: #dd524d;
+    transform: rotate(-50deg);
+    -webkit-transform: rotate(-50deg);
+    position: absolute;
+    top: -2rem;
+    left: 2.6rem;
+    z-index: 3;
+  }
+  .left {
+    width: 5rem;
+    height: 10rem;
+    background-color: lightblue;
+    transform: rotate(50deg);
+    -webkit-transform: rotate(50deg);
+    position: absolute;
+    top: 1rem;
+    left: -0.6rem;
+    z-index: 2;
+  }
+  .bottom {
+    width: 5rem;
+    height: 10rem;
+    background-color: #f0ad4e;
+    transform: rotate(50deg);
+    -webkit-transform: rotate(50deg);
+    position: absolute;
+    top: 5.5rem;
+    left: 1rem;
+    z-index: 1;
   }
 }

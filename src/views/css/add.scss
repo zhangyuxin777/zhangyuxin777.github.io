@@ -1,0 +1,40 @@
+@import "../../css/wl-common";
+
+.add {
+  width: $pageWidth;
+  padding: 0.2rem;
+  background-color: white;
+  position: absolute;
+  .title {
+    font-size: 0.3rem;
+    max-height: 0.8rem;
+    overflow: hidden;
+    height: 0.6rem;
+    width: 6rem;
+    border-bottom: 1px $mainColor solid;
+  }
+  .info {
+    font-size: 0.22rem;
+    color: #aaa;
+    padding: 0.1rem 0;
+  }
+  .content {
+    color: #222;
+    width: 6rem;
+    height: 6rem;
+    padding: 0;
+    margin-top: 0.3rem;
+    border: 1px #d7d7d7 solid;
+  }
+  .submit {
+    width: 6rem;
+    margin-top: 0.2rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    border-radius: 0.08rem;
+    text-align: center;
+    font-size: 0.28rem;
+    background-color: $mainColor;
+    color: white;
+  }
+}

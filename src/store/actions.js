@@ -20,7 +20,7 @@ export const addArticleList = ({commit}, list) => {
  * @param commit
  * @param list 列表
  */
-export const addExperineceList = ({commit}, list) => {
+export const addExperienceList = ({commit}, list) => {
   commit('ADD_EXPERIENCE_LIST', list)
 }
 

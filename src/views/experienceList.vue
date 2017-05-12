@@ -34,7 +34,7 @@
     methods: {
       toArticle (id) {
         this.$router.push({
-          name: 'article',
+          name: 'experience',
           query: {id: id}
         })
       }
@@ -44,7 +44,7 @@
       let query = new Common.AV.Query('ExperienceList')
       query.limit(1000)
       query.find().then(function (results) {
-        _this.$store.dispatch('addExperineceList', results)
+        _this.$store.dispatch('addExperienceList', results)
       }, function (error) {
         console.log(error)
       })

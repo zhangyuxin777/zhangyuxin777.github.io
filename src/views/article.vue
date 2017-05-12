@@ -1,5 +1,5 @@
 <style scoped>
-  @import "css/article.css";
+  @import "css/content.css";
 </style>
 <template>
   <transition name="custom-classes-transition" enter-active-class="animated fadeInLeft"
