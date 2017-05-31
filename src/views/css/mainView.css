@@ -1,5 +1,6 @@
 .main {
-  position: absolute; }
+  position: relative;
+  background: white; }
   .main .banner {
     width: 6.4rem;
     height: 3rem;
@@ -8,7 +9,8 @@
     width: 6.4rem; }
     .main .list .item {
       height: 1.5rem;
-      position: relative; }
+      position: relative;
+      padding-top: 0.3rem; }
       .main .list .item .title {
         display: inline-block;
         border-right: 2rem solid transparent;
@@ -37,6 +39,18 @@
           color: white;
           font-weight: bolder;
           display: inline-block; }
+      .main .list .item .name {
+        text-align: center; }
+        .main .list .item .name .text {
+          font-size: 0.42rem;
+          font-weight: bolder;
+          text-align: center;
+          border-bottom: 0.05rem solid cadetblue; }
+      .main .list .item .detail {
+        text-align: center; }
+        .main .list .item .detail .text {
+          font-size: 0.22rem;
+          line-height: 0.45rem; }
       .main .list .item .t1 {
         border-top: 1.5rem solid #fa7c7d; }
       .main .list .item .c1 {

@@ -7,27 +7,23 @@
     <div class="main">
       <div class="banner"></div>
       <ul class="list">
-      <li class="item" @click="toArticleList">
-      <div class="title t1"><span class="text">文章</span></div>
-      <div class="cont c1"><span class="text">文章</span></div>
-      </li>
-      <li class="item" @click="toThinkList">
-      <div class="title t2"><span class="text">思维</span></div>
-      <div class="cont c2"><span class="text">文章</span></div>
-      </li>
-      <li class="item" @click="toExperienceList">
-      <div class="title t3"><span class="text">填坑</span></div>
-      <div class="cont c3"><span class="text">文章</span></div>
-      </li>
-      <li class="item">
-      <div class="title t4"><span class="text">我</span></div>
-      <div class="cont c4"><span class="text">文章</span></div>
-      </li>
+        <li class="item" @click="toArticleList">
+          <div class="name"><span class="text">文章</span></div>
+          <div class="detail "><span class="text">秋来相顾尚飘蓬，未就丹砂愧葛洪</span></div>
+        </li>
+        <li class="item" @click="toThinkList">
+          <div class="name"><span class="text">思绪</span></div>
+          <div class="detail "><span class="text">那些思绪，那些勇气，压抑在梦里</span></div>
+        </li>
+        <li class="item" @click="toExperienceList">
+          <div class="name"><span class="text">碎片</span></div>
+          <div class="detail "><span class="text">路见不平一声吼，填完这坑继续走</span></div>
+        </li>
+        <li class="item" @click="toThinkList">
+          <div class="name"><span class="text">我</span></div>
+          <div class="detail "><span class="text">我就是我，爱吃肉的小伙</span></div>
+        </li>
       </ul>
-      <!--<div class="top" @click="write(1)"></div>-->
-      <!--<div class="right" @click="write(2)"></div>-->
-      <!--<div class="left" @click="write(3)"></div>-->
-      <!--<div class="bottom" @click="write(4)"></div>-->
     </div>
   </transition>
 </template>

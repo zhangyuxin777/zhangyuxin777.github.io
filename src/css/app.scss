@@ -1,7 +1,7 @@
 ﻿@import "wl-common";
 
 html {
-  background: white;
+  //background: #add8e6;
 }
 
 body {
@@ -10,6 +10,7 @@ body {
   width: $pageWidth;
   margin: 0 auto;
   font-size: 0.24rem;
+  background: white;
 }
 
 * {

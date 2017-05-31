@@ -1,13 +1,11 @@
 @charset "UTF-8";
-html {
-  background: white; }
-
 body {
   font-family: 'Microsoft YaHei', 'Hiragino Sans GB', Helvetica, Arial, 'Lucida Grande', sans-serif;
   -webkit-tap-highlight-color: transparent;
   width: 6.4rem;
   margin: 0 auto;
-  font-size: 0.24rem; }
+  font-size: 0.24rem;
+  background: white; }
 
 * {
   box-sizing: border-box; }

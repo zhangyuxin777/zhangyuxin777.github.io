@@ -1,7 +1,8 @@
 @import "../../css/wl-common";
 
 .main {
-  position: absolute;
+  position: relative;
+  background: white;
   .banner {
     width: $pageWidth;
     height: 3rem;
@@ -13,6 +14,7 @@
       $hei: 1.5rem;
       height: $hei;
       position: relative;
+      padding-top: 0.3rem;
       .title {
         display: inline-block;
         border-right: 2rem solid transparent;
@@ -44,6 +46,26 @@
           font-weight: bolder;
           display: inline-block;
         }
+      }
+
+      .name {
+        text-align: center;
+        .text {
+          font-size: 0.42rem;
+          font-weight: bolder;
+          text-align: center;
+          border-bottom: 0.05rem solid cadetblue;
+        }
+      }
+      .detail {
+        text-align: center;
+        .text {
+          font-size: 0.22rem;
+          line-height: 0.45rem;
+        }
+      }
+      .icon {
+
       }
 
       .t1 {
