@@ -398,8 +398,9 @@ blockquote {
     border-left: 0.3em solid #d5d5d5; }
   blockquote blockquote p {
     color: #797979;
-    padding-left: 0.6em;
-    border-left: 0.15em solid #d5d5d5; }
+    padding-left: 0.4em;
+    border-left: 0.15em solid #d5d5d5;
+    margin-left: 0.3em; }
   blockquote ul li {
     list-style: disc;
     padding: 0;
