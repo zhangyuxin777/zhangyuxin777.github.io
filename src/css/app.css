@@ -1,4 +1,3 @@
-@charset "UTF-8";
 body {
   font-family: 'Microsoft YaHei', 'Hiragino Sans GB', Helvetica, Arial, 'Lucida Grande', sans-serif;
   -webkit-tap-highlight-color: transparent;
@@ -15,27 +14,8 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none !important;
   margin: 0; }
 
-pre {
-  background: #002b36;
-  color: lightblue; }
-
 ::-webkit-inner-spin-button {
   visibility: hidden; }
-
-::-webkit-scrollbar {
-  width: 0; }
-
-/*定义滚动条轨道 内阴影+圆角*/
-::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  border-radius: 10px;
-  background-color: #F5F5F5; }
-
-/*定义滑块 内阴影+圆角*/
-::-webkit-scrollbar-thumb {
-  border-radius: 10px;
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  background-color: #555; }
 
 input[type='number'] {
   -moz-appearance: textfield;
@@ -165,6 +145,7 @@ ol, ul:not(.mui-pciker-list) {
   padding: 0;
   margin: 0; }
 
+/***** mui *****/
 .mui-content {
   background-color: #f0f4f3; }
 
@@ -394,5 +375,35 @@ ol, ul:not(.mui-pciker-list) {
   /* iphone6 */ }
 @media (device-width: 414px) and (device-height: 736px) and (-webkit-min-device-pixel-ratio: 2) {
   /* iphone6 Plus */ }
+/******markdown *******/
+pre {
+  background: #002b36;
+  color: lightblue;
+  padding: 1em 0;
+  position: relative;
+  overflow-x: auto; }
+
+h6 {
+  -webkit-margin-before: 0.9em;
+  -webkit-margin-after: 0.9em;
+  font-size: 0.87em;
+  color: #404040; }
+
+blockquote {
+  -webkit-margin-end: 0.15rem;
+  -webkit-margin-start: 0.15rem; }
+  blockquote p {
+    color: #797979;
+    padding-left: 0.6em;
+    border-left: 0.3em solid #d5d5d5; }
+  blockquote blockquote p {
+    color: #797979;
+    padding-left: 0.6em;
+    border-left: 0.15em solid #d5d5d5; }
+  blockquote ul li {
+    list-style: disc;
+    padding: 0;
+    margin-left: 1.5em;
+    color: #797979; }
 
 /*# sourceMappingURL=app.css.map */
