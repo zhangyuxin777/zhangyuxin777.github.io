@@ -1,5 +1,5 @@
 .list-box {
-  position: relative;
+  position: absolute;
   width: 6.4rem; }
   .list-box .list {
     position: absolute;

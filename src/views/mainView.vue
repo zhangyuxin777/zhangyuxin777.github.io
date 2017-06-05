@@ -5,11 +5,15 @@
   <transition name="custom-classes-transition" enter-active-class="animated fadeInLeft"
               leave-active-class="animated fadeOut" mode="out-in">
     <div class="main">
-      <div class="banner"></div>
+      <div class="banner">
+        <div class="mask"></div>
+        <div class="triangle-left"></div>
+        <div class="triangle-right"></div>
+      </div>
       <ul class="list">
         <li class="item" @click="toArticleList">
           <div class="name"><span class="text">文章</span></div>
-          <div class="detail "><span class="text">秋来相顾尚飘蓬，未就丹砂愧葛洪</span></div>
+          <div class="detail "><span class="text">爱好由来落笔难，一诗千改始心安</span></div>
         </li>
         <li class="item" @click="toThinkList">
           <div class="name"><span class="text">思绪</span></div>

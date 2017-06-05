@@ -466,9 +466,9 @@ ol, ul:not(.mui-pciker-list) {
 /******markdown *******/
 
 pre {
-  background: #002b36;
-  color: lightblue;
-  padding: 1em 0;
+  background: rgba(247, 247, 247, 1);
+  color: rgba(0, 143, 179, 1);
+  padding: 1em 0 1em 0.3em;
   position: relative;
   overflow-x: auto;
 }
@@ -482,8 +482,8 @@ h6 {
 
 blockquote {
   $textColor:rgb(121, 121, 121);
-  -webkit-margin-end: 0.15rem;
-  -webkit-margin-start: 0.15rem;
+  -webkit-margin-end: 0;
+  -webkit-margin-start: 0;
   p {
     color: $textColor;
     padding-left: 0.6em;
@@ -493,8 +493,8 @@ blockquote {
     p {
       color: $textColor;
       padding-left: 0.4em;
-      border-left: 0.15em solid rgb(213, 213, 213);
-      margin-left: 0.3em;
+      border-left: 0.1em solid rgb(223, 223, 223);
+      margin-left: 0.5em;
     }
   }
   ul {

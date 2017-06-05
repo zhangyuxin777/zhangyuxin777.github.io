@@ -1,17 +1,46 @@
 @import "../../css/wl-common";
 
+$hei: 1.5rem;
+$background: white;
 .main {
-  position: relative;
-  background: white;
+  position: absolute;
+  background: $background;
   .banner {
     width: $pageWidth;
-    height: 3rem;
-    background-color: #2c3e50;
+    height: 3.53rem;
+    @include getBackground('blog_banner.jpg');
+    background-size: $pageWidth 3.83rem;
+    background-position-y: -0.3rem;
+    position: relative;
+    .triangle-left {
+      position: absolute;
+      bottom: -0.02rem;
+      display: inline-block;
+      border-right: 3.3rem solid transparent;
+      border-bottom: 0.5rem solid $background;
+      height: 0;
+      width: 3.3rem;
+    }
+    .triangle-right {
+      position: absolute;
+      bottom: -0.02rem;
+      right: 0;
+      display: inline-block;
+      border-left: 3.3rem solid transparent;
+      border-bottom: 0.5rem solid $background;
+      height: 0;
+      width: 3.3rem;
+    }
+    .mask {
+      width: $pageWidth;
+      height: 3.53rem;
+      background: rgba(52, 83, 97, 0.4);
+    }
   }
   .list {
     width: $pageWidth;
+    margin-top: 0.1rem;
     .item {
-      $hei: 1.5rem;
       height: $hei;
       position: relative;
       padding-top: 0.3rem;

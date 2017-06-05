@@ -377,9 +377,9 @@ ol, ul:not(.mui-pciker-list) {
   /* iphone6 Plus */ }
 /******markdown *******/
 pre {
-  background: #002b36;
-  color: lightblue;
-  padding: 1em 0;
+  background: #f7f7f7;
+  color: #008fb3;
+  padding: 1em 0 1em 0.3em;
   position: relative;
   overflow-x: auto; }
 
@@ -390,8 +390,8 @@ h6 {
   color: #404040; }
 
 blockquote {
-  -webkit-margin-end: 0.15rem;
-  -webkit-margin-start: 0.15rem; }
+  -webkit-margin-end: 0;
+  -webkit-margin-start: 0; }
   blockquote p {
     color: #797979;
     padding-left: 0.6em;
@@ -399,8 +399,8 @@ blockquote {
   blockquote blockquote p {
     color: #797979;
     padding-left: 0.4em;
-    border-left: 0.15em solid #d5d5d5;
-    margin-left: 0.3em; }
+    border-left: 0.1em solid #dfdfdf;
+    margin-left: 0.5em; }
   blockquote ul li {
     list-style: disc;
     padding: 0;
