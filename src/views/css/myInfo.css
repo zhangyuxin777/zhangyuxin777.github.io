@@ -1,0 +1,27 @@
+.my-info {
+  position: absolute;
+  width: 6.4rem; }
+  .my-info .building {
+    position: relative;
+    width: 3.2rem;
+    height: 3.2rem;
+    background: transparent url("http://on7hxaasw.bkt.clouddn.com/building.png") 0 0 no-repeat;
+    background-size: 3.2rem 3.2rem;
+    margin-left: 1.6rem;
+    margin-top: 1rem; }
+  .my-info .text {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 0.35rem;
+    margin-top: 0.5rem; }
+  .my-info .email {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 0.24rem;
+    margin-top: 0.5rem; }
+    .my-info .email a {
+      color: inherit; }
+
+/*# sourceMappingURL=myInfo.css.map */

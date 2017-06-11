@@ -1,6 +1,7 @@
 .main {
   position: absolute;
-  background: white; }
+  background: white;
+  width: 6.4rem; }
   .main .banner {
     width: 6.4rem;
     height: 3.53rem;
@@ -29,6 +30,21 @@
       width: 6.4rem;
       height: 3.53rem;
       background: rgba(52, 83, 97, 0.4); }
+    .main .banner .welcome {
+      position: absolute;
+      text-align: center;
+      font-size: 0.5rem;
+      font-weight: bolder;
+      color: white;
+      top: 1.4rem;
+      width: 100%; }
+    .main .banner .name {
+      position: absolute;
+      text-align: center;
+      color: white;
+      font-size: 0.35rem;
+      top: 2.7rem;
+      width: 100%; }
   .main .list {
     width: 6.4rem;
     margin-top: 0.1rem; }

@@ -5,6 +5,7 @@ $background: white;
 .main {
   position: absolute;
   background: $background;
+  width: $pageWidth;
   .banner {
     width: $pageWidth;
     height: 3.53rem;
@@ -35,6 +36,23 @@ $background: white;
       width: $pageWidth;
       height: 3.53rem;
       background: rgba(52, 83, 97, 0.4);
+    }
+    .welcome {
+      position: absolute;
+      text-align: center;
+      font-size: 0.5rem;
+      font-weight: bolder;
+      color: white;
+      top: 1.4rem;
+      width: 100%;
+    }
+    .name{
+      position: absolute;
+      text-align: center;
+      color: white;
+      font-size: 0.35rem;
+      top: 2.7rem;
+      width: 100%;
     }
   }
   .list {

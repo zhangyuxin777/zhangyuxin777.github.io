@@ -9,6 +9,8 @@
         <div class="mask"></div>
         <div class="triangle-left"></div>
         <div class="triangle-right"></div>
+        <div class="welcome">Welcome to my blog</div>
+        <div class="name">张裕鑫</div>
       </div>
       <ul class="list">
         <li class="item" @click="toArticleList">
@@ -23,7 +25,7 @@
           <div class="name"><span class="text">碎片</span></div>
           <div class="detail "><span class="text">路见不平一声吼，填完这坑继续走</span></div>
         </li>
-        <li class="item" @click="toThinkList">
+        <li class="item" @click="toMe">
           <div class="name"><span class="text">我</span></div>
           <div class="detail "><span class="text">我就是我，爱吃肉的小伙</span></div>
         </li>
@@ -56,6 +58,11 @@
       toThinkList () {
         this.$router.push({
           name: 'thinkList'
+        })
+      },
+      toMe () {
+        this.$router.push({
+          name: 'myInfo'
         })
       }
     },

@@ -1,0 +1,33 @@
+@import "../../css/wl-common";
+
+.my-info {
+  position: absolute;
+  width: $pageWidth;
+  .building {
+    position: relative;
+    width: 3.2rem;
+    height: 3.2rem;
+    @include getBackground('building.png');
+    background-size: 3.2rem 3.2rem;
+    margin-left: 1.6rem;
+    margin-top: 1rem;
+  }
+  .text {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 0.35rem;
+    margin-top: 0.5rem;
+  }
+  .email {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 0.24rem;
+    margin-top: 0.5rem;
+    a {
+      color: inherit;
+    }
+  }
+}
+

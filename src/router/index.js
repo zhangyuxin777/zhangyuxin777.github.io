@@ -7,6 +7,7 @@ import experienceList from '../views/experienceList'
 import experience from '../views/experience'
 import addExperience from '../views/addExperience'
 import thinkList from '../views/thinkList'
+import myInfo from '../views/myInfo'
 Vue.use(Router)
 
 export default new Router({
@@ -45,6 +46,11 @@ export default new Router({
       path: '/thinkList',
       name: 'thinkList',
       component: thinkList
+    },
+    {
+      path: '/myInfo',
+      name: 'myInfo',
+      component: myInfo
     }
   ]
 })
