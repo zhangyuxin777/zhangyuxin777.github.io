@@ -53,6 +53,7 @@
       }, function (error) {
         console.log(error)
       })
+      document.body.scrollTop = 0
     }
   }
 </script>

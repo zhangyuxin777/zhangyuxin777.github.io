@@ -33,6 +33,7 @@
     },
     methods: {
       toArticle (id) {
+        sessionStorage.setItem('articleListScrollTop', document.body.scrollTop)
         this.$router.push({
           name: 'article',
           query: {id: id}
@@ -48,6 +49,9 @@
       }, function (error) {
         console.log(error)
       })
+      setTimeout(function () {
+        document.body.scrollTop = parseFloat(sessionStorage.getItem('articleListScrollTop'))
+      }, 200)
     }
   }
 </script>

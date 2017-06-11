@@ -1,12 +1,37 @@
 .main {
-  position: relative;
+  position: absolute;
   background: white; }
   .main .banner {
     width: 6.4rem;
-    height: 3rem;
-    background-color: #2c3e50; }
+    height: 3.53rem;
+    background: transparent url("http://on7hxaasw.bkt.clouddn.com/blog_banner.jpg") 0 0 no-repeat;
+    background-size: 6.4rem 3.83rem;
+    background-position-y: -0.3rem;
+    position: relative; }
+    .main .banner .triangle-left {
+      position: absolute;
+      bottom: -0.02rem;
+      display: inline-block;
+      border-right: 3.3rem solid transparent;
+      border-bottom: 0.5rem solid white;
+      height: 0;
+      width: 3.3rem; }
+    .main .banner .triangle-right {
+      position: absolute;
+      bottom: -0.02rem;
+      right: 0;
+      display: inline-block;
+      border-left: 3.3rem solid transparent;
+      border-bottom: 0.5rem solid white;
+      height: 0;
+      width: 3.3rem; }
+    .main .banner .mask {
+      width: 6.4rem;
+      height: 3.53rem;
+      background: rgba(52, 83, 97, 0.4); }
   .main .list {
-    width: 6.4rem; }
+    width: 6.4rem;
+    margin-top: 0.1rem; }
     .main .list .item {
       height: 1.5rem;
       position: relative;

@@ -35,6 +35,7 @@
     },
     methods: {},
     mounted () {
+      document.body.scrollTop = 0
       let _this = this
       let query = new Common.AV.Query('ExperienceList')
       query.equalTo('id', this.$route.query.id)
